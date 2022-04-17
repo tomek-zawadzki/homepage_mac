@@ -24,3 +24,15 @@
   max-width: 160px;
   max-height: 160px;
 }
+
+.function {
+  display: flex;
+  justify-content: center;
+}
+
+.carleto {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
