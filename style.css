@@ -1,0 +1,26 @@
+.all-page {
+  background-color: navy;
+  color: white;
+}
+
+.sector {
+  display: flex;
+  flex-direction: column;
+}
+
+.formation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px;
+}
+
+.face {
+  max-width: 160px;
+  max-height: 160px;
+}
