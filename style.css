@@ -8,31 +8,36 @@
   flex-direction: column;
 }
 
-.formation {
+.sector__formation {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.card {
+.sector__card {
   display: flex;
   flex-direction: column-reverse;
   padding: 20px;
 }
 
-.face {
+.sector__card--face {
   max-width: 160px;
   max-height: 160px;
 }
 
-.function {
+.squad__function {
   display: flex;
   justify-content: center;
 }
 
-.carleto {
+.coach__carleto {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+}
+
+.coach__function {
+  display: flex;
+  justify-content: center;
 }
