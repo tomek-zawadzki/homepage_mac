@@ -7,10 +7,17 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+body {
+  background-image: url(images/tlo.webp);
+  max-height: 100vp;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .all-page {
-  background-color: navy;
-  color: white;
+  padding: 40px 100px 20px 100px;
+  color: black;
 }
 
 .sector {
