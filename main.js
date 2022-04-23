@@ -14,5 +14,30 @@ function createContent(querySelectorContent, content) {
   const element = document.querySelector(querySelectorContent);
   element.innerHTML = content;
 }
-
+/*
 createContent(`.special-js`, `${visitor}`);
+*/
+
+const ageTom = 31;
+const agePat = 26;
+
+if (ageTom < agePat) {
+  console.log("pat jest starszy");
+} else if (ageTom == agePat) {
+  console.log("są w tym samym wieku");
+} else {
+  console.log("tom jest starszy");
+}
+
+const myNumber = 102;
+
+switch (myNumber) {
+  case 51:
+    console.log("ok");
+    break;
+  case 102:
+    console.log("okk");
+    break;
+    default:
+        console.log('okkk')
+}
