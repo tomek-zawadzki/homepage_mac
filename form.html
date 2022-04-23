@@ -1,18 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kwestionariusz kibica Realu Madryt</title>
-</head>
-<body>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="form.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <header>
-        <h1>Kwestionariusz kibica Realu Madryt</h1>
+      <h1>Kwestionariusz kibica Realu Madryt</h1>
     </header>
     <form>
-        
+      <p>
+        <label for="firstName">Imię:</label>
+        <input
+          id="firstName"
+          name="firstName"
+          type="text"
+          placeholder="wpisz swoje imię"
+        />
+      </p>
+      <p>
+        <label for="lastName">Nazwisko:</label>
+        <input
+          id="lasttName"
+          name="lastName"
+          type="text"
+          placeholder="wpisz swoje nazwisko"
+        />
+      </p>
+      <p>
+        <label for="phone">Nr telefonu:</label>
+        <input
+          id="phone"
+          name="phone"
+          type="tel"
+          placeholder="wpisz swój nr telefonu"
+        />
+      </p>
+      <p>
+        <label for="email">E-mail:</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="wpisz swój e-mail"
+        />
+      </p>
+      <fieldset>
+        <legend>Adres:</legend>
+        <p>
+          <label for="street">Ulica:</label>
+          <input
+            id="street"
+            name="street"
+            placeholder="wpisz swoje ulicę"
+          />
+        </p>
+        <p>
+          <label for="zipCode">Kod pocztowy:</label>
+          <input
+            id="zipCode"
+            name="zipCode"
+            placeholder="wpisz swój kod pocztowy"
+          />
+        </p>
+        <p>
+          <label for="city">Miasto</label>
+          <input
+            id="city"
+            name="city"
+            placeholder="wpisz swoje miasto"
+          />
+        </p>
+      </fieldset>
     </form>
-    
-</body>
+  </body>
 </html>
