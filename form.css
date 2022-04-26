@@ -2,6 +2,48 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 36px;
-    row-gap: 36px;
-    
+    row-gap: 36px;   
+    margin: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.position {
+    display: grid;
+    grid-template-areas: "article article article"
+    "article article article"
+    "article article article"
+    "article article article";
+}
+
+.conteiner {
+    width: 500px;
+}
+
+.conteiner__end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pick {
+    margin: 2px;
+}
+
+.story__area {
+    width: 450px;
+    height: 160px;
+}
+
+.conteiner__info {
+    border-bottom: 2px solid black;
+}
+
+.conteiner__address {
+    border-bottom: 2px solid black;
 }

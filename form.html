@@ -13,7 +13,7 @@
       <h1 class="header__title">Kwestionariusz kibica Realu Madryt</h1>
     </header>
     <form class="form">
-      <div class="conteiner">
+      <div class="conteiner conteiner__info">
         <p class="info">
           <label class="info__name" for="firstName">Imię:</label>
           <input class="info__name--text"
@@ -60,7 +60,7 @@
           />
         </p>
       </div>
-      <div class="conteiner">
+      <div class="conteiner conteiner__address">
         <fieldset class="address">
           <legend class="address__title">Adres:</legend>
           <p class="adress__info">
@@ -81,9 +81,10 @@
           </p>
         </fieldset>
       </div>
-      <div class="conteiner">
+      <div class="conteiner conteiner__player">
         <fieldset class="player">
           <legend class="player__title">Kto jest Twoim ulubionym piłkarzem Realu w historii?</legend>
+          <div class="position">
           <p class="player__info">
             <label class="player__info--name"
               ><input class="player__info--choose"
@@ -181,6 +182,7 @@
               />Juanito</label
             >
           </p>
+          </div>
         </fieldset>
         <p class="coach">
           <label class="coach__title" for="coach">Kto był najlepszym trenerem?</label>
@@ -191,7 +193,7 @@
           </select>
         </p>
       </div>
-      <div class="conteiner">
+      <div class="conteiner conteiner__end">
         <label class="story" for="story">Dlaczego kibicujesz Realowi?</label>
         <textarea class="story__area" id="story" name="story">opisz</textarea>
 
