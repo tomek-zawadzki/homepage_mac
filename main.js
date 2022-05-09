@@ -41,3 +41,11 @@ switch (myNumber) {
     default:
         console.log('okkk')
 }
+
+const button = document.querySelector('.tap-js');
+
+
+
+button.addEventListener('click', () => {
+  button.innerHTML = 'udało Ci się byku'
+})

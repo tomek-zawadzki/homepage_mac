@@ -20,6 +20,11 @@ body {
   color: black;
 }
 
+.hamburger__page {
+  border: solid 1px white;
+  
+}
+
 .sector {
   display: flex;
   flex-direction: column;
