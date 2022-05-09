@@ -42,7 +42,7 @@ switch (myNumber) {
         console.log('okkk')
 }
 
-const button = document.querySelector('.tap-js');
+const button = document.querySelector('.button__tap-js');
 
 
 
