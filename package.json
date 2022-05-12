@@ -1,0 +1,19 @@
+{
+  "name": "hamepage_mac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomek-zawadzki/homepage_mac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomek-zawadzki/homepage_mac/issues"
+  },
+  "homepage": "https://github.com/tomek-zawadzki/homepage_mac#readme"
+}
