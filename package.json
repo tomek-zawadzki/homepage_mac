@@ -4,6 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "sass": "npx node-sass style.scss style.css -w",
+    "cow": "cowsay hello world!",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/tomek-zawadzki/homepage_mac/issues"
   },
-  "homepage": "https://github.com/tomek-zawadzki/homepage_mac#readme"
+  "homepage": "https://github.com/tomek-zawadzki/homepage_mac#readme",
+  "dependencies": {
+    "cowsay-tag": "^1.3.3",
+    "normalize-url": "^7.0.3"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
