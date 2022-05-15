@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "sass-style": "npx node-sass -w style.scss style.css",
+    "sass": "npx node-sass -w style.scss style.css",
     "sass-form": "npx node-sass -w form.scss form.css",
     "cow": "npx cowsay hello world!",
     "start": "node main.js",
