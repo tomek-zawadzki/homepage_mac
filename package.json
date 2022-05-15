@@ -4,8 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "sass": "npx node-sass -w style.scss style.css",
-    "cow": "cowsay hello world!",
+    "sass-style": "npx node-sass -w style.scss style.css",
+    "sass-form": "npx node-sass -w form.scss form.css",
+    "cow": "npx cowsay hello world!",
     "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
