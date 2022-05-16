@@ -28,6 +28,10 @@
     width: 330px;
     height: 30px;
   }
+  &__page:hover {
+    color: black;
+    background-color: white;
+  }
 }
 
 .header {

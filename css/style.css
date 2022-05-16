@@ -34,6 +34,9 @@ body {
     text-decoration: none;
     width: 330px;
     height: 30px; }
+  .hamburger__page:hover {
+    color: black;
+    background-color: white; }
 
 .sector {
   display: flex;
@@ -50,6 +53,9 @@ body {
       max-width: 160px;
       max-height: 160px;
       border-radius: 16px; }
+    .sector__card--captain::before {
+      content: "(C) ";
+      color: #3c0404; }
 
 .squad__function {
   display: flex;

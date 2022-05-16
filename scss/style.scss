@@ -37,6 +37,10 @@ body {
     width: 330px;
     height: 30px;
   }
+  &__page:hover {
+    color: black;
+    background-color: white;
+  }
 }
 
 .sector {
@@ -55,6 +59,10 @@ body {
       max-width: 160px;
       max-height: 160px;
       border-radius: 16px;
+    }
+    &--captain::before {
+      content: "(C) ";
+      color: rgb(60, 4, 4);
     }
   }
 }
