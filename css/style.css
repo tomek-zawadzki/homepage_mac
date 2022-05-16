@@ -1,31 +1,29 @@
 html {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
+
 body {
-  background-image: url(images/tlo.webp);
+  background-image: url(/images/tlo.webp);
   max-height: 100vp;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
-}
+  background-attachment: fixed; }
+
 .all-page {
   padding: 40px 100px 20px 100px;
-  color: black;
-}
+  color: black; }
 
 .hamburger {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 10px;
-  &__page {
+  margin: 10px; }
+  .hamburger__page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,49 +33,38 @@ body {
     background-color: black;
     text-decoration: none;
     width: 330px;
-    height: 30px;
-  }
-}
+    height: 30px; }
 
 .sector {
   display: flex;
-  flex-direction: column;
-  &__formation {
+  flex-direction: column; }
+  .sector__formation {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-  }
-  &__card {
+    justify-content: space-around; }
+  .sector__card {
     display: flex;
     flex-direction: column-reverse;
-    padding: 20px;
-    &--face {
+    padding: 20px; }
+    .sector__card--face {
       max-width: 160px;
       max-height: 160px;
-      border-radius: 16px;
-    }
-  }
-}
+      border-radius: 16px; }
 
 .squad__function {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .button {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
-.coach {
-  &__carleto {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-  &__function {
-    display: flex;
-    justify-content: center;
-  }
-}
+.coach__carleto {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center; }
+
+.coach__function {
+  display: flex;
+  justify-content: center; }
